@@ -1,6 +1,6 @@
 git remote get-url origin
 git remote rm origin
-git remote add origin https://radoscis:b14a86c629d2122de221d93f673a3565f45f50f7@github.com/radoscis/docker_project2.git
+git remote add origin https://radoscis:${TOKEN}@github.com/radoscis/docker_project2.git
 git push -u origin master
 
 
